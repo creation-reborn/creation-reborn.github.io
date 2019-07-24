@@ -37,7 +37,15 @@
                     <a class="button" aria-label="Status" href="https://monitor.creationreborn.net/" target="_blank" rel="noopener">Status</a>
                 </li>
                 <li>
-                    <a class="button" aria-label="Launcher.jar" href="https://launcher.creationreborn.net/Launcher.jar" target="_blank" rel="noopener">Launcher</a>
+                    <a class="button" href="javascript:void(0)" dropdown-trigger="launcher-dropdown">Launcher</a>
+                    <ul class="flex dropdown no-display" id="launcher-dropdown">
+                        <li>
+                            <a class="button" aria-label="LolnetLauncher.jar" href="https://launcher.creationreborn.net/Launcher.jar" target="_blank" rel="noopener">Apple / Linux</a>
+                        </li>
+                        <li>
+                            <a class="button" aria-label="LolnetLauncher.exe" href="https://launcher.creationreborn.net/Launcher.exe" target="_blank" rel="noopener">Windows</a>
+                        </li>
+                    </ul>
                 </li>
                 <li>
                     <a class="button" aria-label="Donate" href="https://forum.creationreborn.net/account/upgrades" target="_blank" rel="noopener" data-color="#46B068">Donate</a>
